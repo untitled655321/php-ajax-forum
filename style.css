@@ -1,0 +1,234 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: #1d181f;  /* make sure IE centers the page too */
+}
+
+.img-fluid {
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.bg-dark{
+
+}
+.bg-black{
+  background-color: black;
+  opacity: 0.97;
+
+}
+.container{
+  margin-top: 17px;
+}
+.caption{
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.caption img{
+  max-width: 200px;
+  max-height: 200px;
+}
+.yinyang_div{
+  font-weight: bold;
+  font-size: 100px;
+  background:
+radial-gradient(circle at 50% 59%, #E79545 3%, #4279B3 4%, #4279B3 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 25px 0,
+radial-gradient(circle at 50% 41%, #4279B3 3%, #E79545 4%, #E79545 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 25px 0,
+radial-gradient(circle at 50% 59%, #E79545 3%, #4279B3 4%, #4279B3 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 0 25px,
+radial-gradient(circle at 50% 41%, #4279B3 3%, #E79545 4%, #E79545 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 0 25px,
+radial-gradient(circle at 100% 50%, #E79545 16%, rgba(210,202,171,0) 17%),
+radial-gradient(circle at 0% 50%, #4279B3 16%, rgba(54,78,39,0) 17%),
+radial-gradient(circle at 100% 50%, #E79545 16%, rgba(210,202,171,0) 17%) 25px 25px,
+radial-gradient(circle at 0% 50%, #4279B3 16%, rgba(54,78,39,0) 17%) 25px 25px;
+background-color:black;
+background-size:50px 50px;
+
+-webkit-box-shadow: inset -1px -34px 61px -41px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px -34px 61px -41px rgba(0,0,0,0.75);
+box-shadow: inset -1px -34px 61px -41px rgba(0,0,0,0.75);
+}
+.carbon_div{
+
+  background:
+linear-gradient(27deg, #151515 1px, transparent 1px) 0 2px,
+linear-gradient(207deg, #151515 1px, transparent 1px) 5px 0px,
+linear-gradient(27deg, #222 1px, transparent 1px) 0px 5px,
+linear-gradient(207deg, #222 1px, transparent 1px) 5px 2px,
+linear-gradient(90deg, #1b1b1b 2px, transparent 2px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 5px 5px;
+
+-webkit-box-shadow: inset -1px -52px 61px -41px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -1px -52px 61px -41px rgba(0,0,0,0.75);
+box-shadow: inset -1px -52px 61px -41px rgba(0,0,0,0.75);
+}
+.result_div{
+
+
+color: #4279B3;
+text-decoration: none;
+
+}
+.result_div:hover{
+  text-decoration: none;
+  color: #3168A2;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;             /* center the page */
+}
+
+#content {
+  background-color: #fff;
+    border: 1px solid #000;
+    float: left;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;
+    width: 100%;                /* fill up the entire div */
+}
+
+#menu {
+    float: left;
+    border: 1px solid #000;
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:100%;
+    height:20px;
+    padding: 0 30px;
+    background-color: #FFF;
+    text-align: left;
+    font-size: 85%;
+}
+
+#menu a:hover {
+    background-color: #009FC1;
+}
+
+#userbar {
+    background-color: #fff;
+    float: right;
+    width: 250px;
+}
+
+#footer {
+    clear: both;
+}
+
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table a {
+    color: #000;
+}
+
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+
+th {
+    background-color: #B40E1F;
+    color: #F0F0F0;
+}
+
+td {
+    padding: 5px;
+}
+
+/* Begin font styles */
+h1, #footer {
+    font-family: Arial;
+    color: #F1F3F1;
+}
+
+h3 {margin: 0; padding: 0;}
+
+/* Menu styles */
+.item {
+    background-color: #00728B;
+    border: 1px solid #032472;
+    color: #FFF;
+    font-family: Arial;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.leftpart {
+    width: 70%;
+}
+
+.rightpart {
+    width: 30%;
+}
+
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+
+.post-content {
+    padding: 30px;
+}
+
+
+
+/* shoutbox */
+#view_ajax {
+  display: block;
+  overflow: auto;
+  width: 500px;
+  height: 420px;
+  border: 1px solid #333;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#view_content_watcher{
+  display: block;
+  overflow: auto;
+  width: 500px;
+  height: 420px;
+  border: 1px solid #333;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#ajaxForm{
+  display: block;
+  margin: 0 auto;
+  width: 1500px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+#chatInput{
+  width: 100%;
+}

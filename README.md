@@ -1,1 +1,1 @@
-"# php-ajax-forum" 
+Simple forum written in php
